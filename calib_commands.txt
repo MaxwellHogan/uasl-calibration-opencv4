@@ -1,0 +1,21 @@
+./lab_mono_calibration ~/Desktop/calib/ cam0_image%05d.png -c -p pyramid
+./lab_mono_calibration ~/Desktop/calib2/ cam0_image%05d.png -c ~/Desktop/calibmat.yml -p pyramid
+./lab_mono_calibration ~/Desktop/calib_2/ cam0_image%05d.png -c ~/Desktop/calibmat.yml -p pyramid
+./lab_mono_calibration ~/Desktop/calib/ cam0_image%05d.png -c ~/Desktop/k_mat.yml -p pyramid -i 30
+./lab_mono_calibration ~/Desktop/calib/ cam0_image%05d.png -c ~/Desktop/k_mat.yml -p pyramid -i 10
+./lab_mono_calibration ~/Desktop/calib2/ cam0_image%05d.png -c -p pyramid
+sudo ./eclipse 
+./lab_mono_calibration ~/Desktop/calib2/ cam0_image%05d.png -c -p pyram
+./lab_mono_calibration ~/Desktop/calib2/ cam0_image%05d.png -c -p pyr
+./lab_mono_calibration 
+./lab_mono_calibration ~/Desktop/calib2/ cam0_image%05d.png ~/Desktop/kmat.yml -c -p pyramid
+./lab_mono_calibration ~/Desktop/tmp/ img_fir_%02.png ~/Desktop/kmat.yml 
+./lab_mono_calibration ~/Desktop/ir_tmp/ img_fir_%02.png ~/Desktop/kmat.yml 
+./lab_mono_calibration ~/Desktop/ir_tmp/ img_fir_%01.png ~/Desktop/kmat.yml 
+./lab_mono_calibration ~/Desktop/ir_tmp/ img_fir_%2.png ~/Desktop/kmat.yml 
+./lab_mono_calibration ~/Desktop/ir_tmp/ img_fir_%02.png ~/Desktop/kmat.yml 
+./lab_mono_calibration ~/Desktop/ir_tmp/ img_fir_%02d.png ~/Desktop/kmat.yml 
+
+
+./lab_stereo_calibration ~/VScode_projects/StereoV1_max/output/calibrationImages camX_frame_%d.png ~/Desktop/k_mat.yml -c -p pyramid -M
+
